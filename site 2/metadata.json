@@ -1,0 +1,6 @@
+{
+  "name": "Malwai Giddha – Traditional Punjabi Folk Heritage",
+  "description": "Official cultural showcase for Malwai Giddha, the traditional men's folk dance of Punjab's Malwa region featuring live performances, Punjabi Boliyan, traditional instruments, and event bookings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
