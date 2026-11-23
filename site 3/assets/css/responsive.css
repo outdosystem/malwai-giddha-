@@ -1,0 +1,126 @@
+/* ==========================================================================
+   MALWAI GIDDHA — RESPONSIVE RULES (MOBILE 360px / 390px / 430px, TABLET, DESKTOP)
+   ========================================================================== */
+
+@media (max-width: 1199.98px) {
+  .main-navbar .nav-link {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.86rem;
+  }
+  .masonry-gallery-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-pad {
+    padding: 4.25rem 0;
+  }
+  .hero-slider-section {
+    height: auto;
+    min-height: 600px;
+    max-height: none;
+  }
+  .hero-content-layer {
+    padding-top: 7rem;
+    padding-bottom: 5.5rem;
+  }
+  .brand-logo-img {
+    height: 38px;
+  }
+  .inner-hero-banner {
+    min-height: 330px;
+    padding: 7.5rem 0 2.75rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html,
+  body,
+  main {
+    overflow-x: hidden;
+  }
+  .container,
+  .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .row.g-5,
+  .row.g-lg-5 {
+    --bs-gutter-x: 1.5rem;
+  }
+  .contact-info-card p {
+    overflow-wrap: anywhere;
+  }
+  .section-pad {
+    padding: 3.35rem 0;
+  }
+  .section-pad-sm {
+    padding: 2.75rem 0;
+  }
+  .hero-slider-section {
+    min-height: 540px;
+  }
+  .hero-content-layer {
+    padding-top: 6.25rem;
+    padding-bottom: 5rem;
+  }
+  .hero-title {
+    font-size: clamp(1.9rem, 7vw, 2.45rem);
+  }
+  .hero-subtitle {
+    font-size: 0.98rem;
+    margin-bottom: 1.5rem;
+  }
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .hero-actions .btn-gold,
+  .hero-actions .btn-outline-gold {
+    width: 100%;
+    min-height: 44px;
+  }
+  .hero-slider-controls {
+    bottom: 1.35rem;
+  }
+  .hero-indicator-btn {
+    width: 28px;
+  }
+  .hero-indicator-btn.is-active {
+    width: 44px;
+  }
+  .masonry-gallery-grid {
+    column-count: 1;
+  }
+  .testimonial-card {
+    padding: 1.55rem 1.25rem;
+  }
+  .contact-form-panel {
+    padding: 1.5rem 1.25rem;
+  }
+  .brand-logo-wrap {
+    padding: 0.2rem 0.55rem;
+  }
+  .brand-logo-img {
+    height: 34px;
+  }
+}
+
+@media (max-width: 430px) {
+  .container,
+  .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .hero-kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+  }
+  .section-heading {
+    font-size: 1.65rem;
+  }
+  .city-tile-card {
+    min-height: 155px;
+  }
+}
